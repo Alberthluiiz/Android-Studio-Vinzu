@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/sobreNosotrosFragment2">
+    <fragment
+        android:id="@+id/sobreNosotrosFragment2"
+        android:name="com.example.tindavinzunavigation.SobreNosotrosFragment"
+        android:label="Sobre Nosotros"
+        tools:layout="@layout/fragment_sobre_nosotros" >
+        <action
+            android:id="@+id/action_sobreNosotrosFragment2_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_sobreNosotrosFragment2_to_iniciarSesion2"
+            app:destination="@id/iniciarSesion2" />
+        <action
+            android:id="@+id/action_sobreNosotrosFragment2_to_contactos2"
+            app:destination="@id/contactos2" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.tindavinzunavigation.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_camisetasDeParejaFragment"
+            app:destination="@id/camisetasDeParejaFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_camisetasDeMujerFragment"
+            app:destination="@id/camisetasDeMujerFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_camisetasDeHombreFragment2"
+            app:destination="@id/camisetasDeHombreFragment2" />
+        <action
+            android:id="@+id/action_homeFragment_to_portaRetratosFragment"
+            app:destination="@id/portaRetratosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_conjuntosFragment"
+            app:destination="@id/conjuntosFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_almohadasFragment"
+            app:destination="@id/almohadasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/camisetasDeParejaFragment"
+        android:name="com.example.tindavinzunavigation.CamisetasDeParejaFragment"
+        android:label="Camisetas de Pareja"
+        tools:layout="@layout/fragment_camisetas_de_pareja" />
+    <fragment
+        android:id="@+id/camisetasDeHombreFragment2"
+        android:name="com.example.tindavinzunavigation.CamisetasDeHombreFragment"
+        android:label="Camisetas de Hombre"
+        tools:layout="@layout/fragment_camisetas_de_hombre" />
+    <fragment
+        android:id="@+id/camisetasDeMujerFragment"
+        android:name="com.example.tindavinzunavigation.CamisetasDeMujerFragment"
+        android:label="Camisetas de Mujer"
+        tools:layout="@layout/fragment_camisetas_de_mujer" />
+    <fragment
+        android:id="@+id/conjuntosFragment"
+        android:name="com.example.tindavinzunavigation.ConjuntosFragment"
+        android:label="Conjuntos"
+        tools:layout="@layout/fragment_conjuntos" />
+    <fragment
+        android:id="@+id/portaRetratosFragment"
+        android:name="com.example.tindavinzunavigation.PortaRetratosFragment"
+        android:label="Porta Retratos"
+        tools:layout="@layout/fragment_porta_retratos" />
+    <fragment
+        android:id="@+id/almohadasFragment"
+        android:name="com.example.tindavinzunavigation.AlmohadasFragment"
+        android:label="Almohadas"
+        tools:layout="@layout/fragment_almohadas" />
+    <fragment
+        android:id="@+id/iniciarSesion2"
+        android:name="com.example.tindavinzunavigation.IniciarSesion"
+        android:label="Iniciar Sesion"
+        tools:layout="@layout/fragment_iniciar_sesion2" >
+        <action
+            android:id="@+id/action_iniciarSesion2_to_sobreNosotrosFragment2"
+            app:destination="@id/sobreNosotrosFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/contactos2"
+        android:name="com.example.tindavinzunavigation.Contactos"
+        android:label="fragment_contactos"
+        tools:layout="@layout/fragment_contactos" />
+</navigation>

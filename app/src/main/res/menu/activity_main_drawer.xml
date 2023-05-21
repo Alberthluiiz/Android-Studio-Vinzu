@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sobreNosotrosFragment2"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Sobre Nosotros" />
+
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/camisetasDeParejaFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camisetas de Pareja" />
+
+        <item
+            android:id="@+id/camisetasDeHombreFragment2"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camisetas de Hombre" />
+
+        <item
+            android:id="@+id/camisetasDeMujerFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camisetas de Mujer" />
+
+        <item
+            android:id="@+id/conjuntosFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Conjuntos" />
+
+        <item
+            android:id="@+id/portaRetratosFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Porta Retratos" />
+
+        <item
+            android:id="@+id/almohadasFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Almohadas" />
+
+        <item
+            android:id="@+id/iniciarSesion2"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Iniciar sesion" />
+
+        <item
+            android:id="@+id/contactos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="contactos" />
+
+    </group>
+</menu>
